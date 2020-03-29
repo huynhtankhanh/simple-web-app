@@ -1,0 +1,69 @@
+/*
+    black: #010000
+    white: #ffffff
+    lightgrey: #e6e6e6
+    darkGrey: #333333
+    red: ff1755
+*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #010000;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #ff1755;
+    text-decoration: none;
+}
+
+.container-fluid {
+    line-height: 24px;
+}
+
+
+header {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #010000;
+    color: #fff;
+    height: 90px;
+}
+
+header .logo {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+}
+
+header nav {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+}
+
+header nav, header nav ul, header nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    font-size: 19px;
+    line-height: normal;
+    color: #fff;
+}
